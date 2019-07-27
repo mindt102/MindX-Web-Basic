@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Events</title>
+</head>
+<body>
+    <button onclick="Clicked()">Click here</button>
+    <hr>
+    <h1 id="h1" style="line-height: 0.1">Đây là chữ chưa qua chỉnh sửa.</h1>
+    <button onclick="changeColor()">Click here to change color and text</button>
+    
+    <hr>
+    <svg>
+        <rect id="square1" width="150" height="150" style="fill:pink; stroke-width:10;stroke:white" />
+        Sorry, your browser does not support inline SVG.  
+    </svg>
+    <br>
+    <button onclick="changeSquareColor()">Click here to change background color box</button>
+    <script src="events.js"></script>    
+    <hr>
+    <svg id = "box2">
+        <rect width="150px" height="150px" style="fill:pink; stroke-width:10;stroke:white" />
+        Sorry, your browser does not support inline SVG.  
+    </svg>
+    <br>
+    <button onclick="hideBox()">Click here to hide box</button>
+</body>
+</html>
