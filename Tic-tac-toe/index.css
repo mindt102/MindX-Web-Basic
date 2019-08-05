@@ -1,0 +1,56 @@
+html, body, #root {
+    height: 100%;
+    background-color: beige;
+}
+#root {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#map {
+    width: 300px;
+    height: 300px;
+    background-color:black;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center ;
+}
+
+.square { 
+    width: 85px;
+    height: 85px;
+    background-color: gray;
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Permanent Marker', cursive;
+    cursor: pointer;
+}
+
+#title {
+    color: red;
+    text-transform: uppercase;
+    font-size: 90px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+#result {
+    font-family: 'Permanent Marker', cursive;
+    color: blueviolet;
+    font-size: 50px
+}
+
+#again {
+    width: 100px;
+    height: 50px;
+    color: white;
+    background-color: rgb(56, 174, 242);
+    padding-top: 15px;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    cursor: pointer;
+    border-radius: 40%
+}

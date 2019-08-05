@@ -1,0 +1,15 @@
+.text-red {
+    color: red;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.font-weight-bold {
+    font-weight: bold;
+}
+
+.font-fira {
+    font-family: 'Fira Code', monospace;
+}
